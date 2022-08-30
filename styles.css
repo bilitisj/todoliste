@@ -6,7 +6,7 @@
 
 body {
     background-image: linear-gradient(120deg, #16166f, #061048);
-    color: #dac000;
+    color: #ffaa00;
     font-family: "Roboto", sans-serif;
     min-height: 70vh;
 }
@@ -49,7 +49,7 @@ form button {
 
 form button:hover {
     background: #061048;
-    color: #ffe100;
+    color: #ffaa00;
 }
 
 .todo-container {
@@ -78,7 +78,7 @@ form button:hover {
   }
   .trash-btn,
   .complete-btn {
-    background: #ffe100;
+    background: #ffaa00;
     color: black;
     border: none;
     padding: 1rem;

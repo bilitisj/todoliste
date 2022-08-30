@@ -10,28 +10,28 @@
     "orientation" : "landscape",
     "icons" : [
         {
-            "src" : "android-icon-36x36.png",
+            "src" : "todolist-icon-36x36",
             "sizes" :"36x36" ,
             "type" : "image/png"
         },
         {
-            "src" : "android-icon-96x96.png",
+            "src" : "todolist-icon-96x96.png",
             "sizes" :"96x96" ,
             "type" : "image/png"
         },
         {
-            "src" : "android-icon-192x192.png",
+            "src" : "todolist-icon-192x192.png",
             "sizes" :"192x192" ,
             "type" : "image/png"
         },
         {
-            "src" : "android-icon-192x192.png",
+            "src" : "todolist-icon-192x192.png",
             "sizes" :"192x192" ,
             "type" : "image/png",
             "purpose" : "maskable"
         },
         {
-            "src" : "android-icon-512x512.png",
+            "src" : "todolist-icon-512x512.png",
             "sizes" :"512x512" ,
             "type" : "image/png"
         }
