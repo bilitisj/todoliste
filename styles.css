@@ -2,59 +2,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background-image: linear-gradient(120deg, #16166f, #061048);
-    color: #ffe100;
+    color: #dac000;
     font-family: "Roboto", sans-serif;
-    min-height: 100vh;
-  }
-  
-  header {
+    min-height: 70vh;
+}
+
+header {
     font-size: 1.2rem;
-  }
-  
-  header,
-  form {
+}
+
+main {
+  min-height: 70vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+header,
+form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  form input,
-  form button {
+}
+
+form input,
+form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
     background: white;
-  }
-  
-  form button {
+}
+
+form button {
     color: #061048;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
-  }
-  
-  form button:hover {
+}
+
+form button:hover {
     background: #061048;
     color: #ffe100;
-  }
-  
-  .todo-container {
+}
+
+.todo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .todo-list {
+}
+
+.todo-list {
     min-width: 30%;
     list-style: none;
-  }
-  
-  .todo {
+}
+.todo {
     margin: 0.5rem;
     background: white;
     color: black;
@@ -126,7 +134,7 @@
   .select::after {
     content: "\25BC";
     position: absolute;
-    background: #16166f;
+    background: #4f4faa;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -139,3 +147,31 @@
     color: #16166f;
   }
   
+
+.hidden {
+    display: none;
+}
+
+.install {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #4f4faa;
+  border-color: transparent;
+  color: #fff;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  width: 100vw;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    color:#ffe1003c;
+    background-color: #4f4faa46;
+    padding: 2rem;
+    font-style: italic;
+} 
